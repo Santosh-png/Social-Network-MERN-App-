@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res) =>{
-    res.send("Hello server running at port 5000");
+    res.send("Server running at port 5000.");
 })
 app.listen(5000);
 
